@@ -6,7 +6,7 @@ FROM alpine:3.22
 
 RUN apk update
 
-RUN apk add --no-cache ca-certificates iptables iptables-legacy iproute2 bash nano openssh curl jq sqlite sqlit-dev
+RUN apk add --no-cache ca-certificates iptables iptables-legacy iproute2 bash nano openssh curl jq sqlite sqlite-dev
 
 RUN ln -s /usr/sbin/iptables-legacy /usr/local/bin/iptables
 RUN ln -s /usr/sbin/ip6tables-legacy /usr/local/bin/ip6tables
