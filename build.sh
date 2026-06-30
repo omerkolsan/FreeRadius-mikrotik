@@ -3,7 +3,7 @@
 # Use of this source code is governed by a BSD-style
 # license that can be found in the LICENSE file.
 #
-# Updates tailscale respository and runs `docker build` with flags configured for 
+# Updates freeradius respository and runs `docker build` with flags configured for 
 # docker distribution. 
 # 
 #
